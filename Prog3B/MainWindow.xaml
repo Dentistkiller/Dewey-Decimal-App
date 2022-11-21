@@ -1,0 +1,33 @@
+﻿<Window x:Class="Prog3B.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Prog3B"
+        mc:Ignorable="d"
+        Icon="images/icon.png"
+        Title="Dewey Decimal System" Height="450" Width="800">
+    <Window.Background>
+
+        <ImageBrush ImageSource="images/Dewey Decimal System.png"/>
+
+    </Window.Background>
+    <Grid>
+        <Button x:Name="btnReplaceBook"  Content="Replace Book" FontWeight="ExtraBold" FontSize="25" HorizontalAlignment="Right" Margin="0,10,0,0" VerticalAlignment="Top" Width="380" Height="88" Click="btnReplaceBook_Click"  >
+            <Button.Background>
+                <ImageBrush ImageSource="images/book-spine.png"/>
+            </Button.Background>
+
+        </Button>
+        <Button x:Name="btnFCN" Content="Finding call numbers" FontWeight="ExtraBold" FontSize="25" HorizontalAlignment="Right" Margin="0,0,1,20" VerticalAlignment="Bottom" Width="380" Height="88" Click="btnFCN_Click"   >
+            <Button.Background>
+                <ImageBrush ImageSource="images/book-spine.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnIDArea" Content="Identifying areas" FontWeight="ExtraBold" FontSize="25" HorizontalAlignment="Right" Margin="420,0,0,0" VerticalAlignment="Center" Width="380" Height="88" Click="btnIDArea_Click"  >
+            <Button.Background>
+                <ImageBrush ImageSource="images/book-spine.png"/>
+            </Button.Background>
+        </Button>
+    </Grid>
+</Window>

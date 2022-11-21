@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="images\book-spine.png" />
+    <None Remove="images\btn.jpg" />
+    <None Remove="images\call numbers.png" />
+    <None Remove="images\Dewey Decimal System.png" />
+    <None Remove="images\down.jpg" />
+    <None Remove="images\icon.png" />
+    <None Remove="images\identifying_areas.png" />
+    <None Remove="images\replacing_books.png" />
+    <None Remove="images\up.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\book-spine.png" />
+    <Resource Include="images\btn.jpg" />
+    <Resource Include="images\call numbers.png" />
+    <Resource Include="images\Dewey Decimal System.png" />
+    <Resource Include="images\down.jpg" />
+    <Resource Include="images\icon.png" />
+    <Resource Include="images\identifying_areas.png" />
+    <Resource Include="images\replacing_books.png" />
+    <Resource Include="images\up.jpg" />
+  </ItemGroup>
+
+</Project>

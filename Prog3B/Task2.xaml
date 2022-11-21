@@ -1,0 +1,44 @@
+﻿<Window x:Class="Prog3B.Task2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Prog3B"
+        mc:Ignorable="d"
+        Icon="images/icon.png"
+        Title="Task2" Height="628" Width="1312">
+
+    <Window.Background>
+        <ImageBrush ImageSource="images/identifying_areas.png"/>
+    </Window.Background>
+    <Grid>
+        <Button x:Name="btnReset" Content="reset" HorizontalAlignment="Left" Margin="1121,317,0,0" VerticalAlignment="Top" Height="52" Width="120" Click="btnReset_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="images/book-spine.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnCheck" Content="check" HorizontalAlignment="Left" Margin="1121,144,0,0" VerticalAlignment="Top" Height="52" Width="120" Click="btnCheck_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="images/book-spine.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnReturn" Content="return" HorizontalAlignment="Left" Margin="1121,479,0,0" VerticalAlignment="Top" Height="52" Width="120" Click="btnReturn_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="images/book-spine.png"/>
+            </Button.Background>
+        </Button>
+
+        <ComboBox x:Name="AnswerA" HorizontalAlignment="Left" Margin="88,192,0,0" VerticalAlignment="Top" Width="52" Height="35"/>
+        <ListBox x:Name="QuestionA" Margin="323,180,688,106"/>
+        <ListBox x:Name="QuestionB" Margin="693,180,332,106"/>
+        <ComboBox x:Name="AnswerB" HorizontalAlignment="Left" Margin="88,301,0,0" VerticalAlignment="Top" Width="52" Height="35"/>
+        <ComboBox x:Name="AnswerC" HorizontalAlignment="Left" Margin="88,417,0,0" VerticalAlignment="Top" Width="52" Height="35"/>
+        <Label Content="1" BorderThickness="5" BorderBrush="Black" Background="White" HorizontalAlignment="Left" Margin="41,192,0,0" VerticalAlignment="Top"/>
+        <Label Content="2" BorderThickness="5" BorderBrush="Black" Background="White" HorizontalAlignment="Left" Margin="41,301,0,0" VerticalAlignment="Top"/>
+        <Label Content="3" BorderThickness="5" BorderBrush="Black" Background="White" HorizontalAlignment="Left" Margin="41,416,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="AnswerD" HorizontalAlignment="Left" Margin="88,531,0,0" VerticalAlignment="Top" Width="52" Height="35"/>
+        <Label Content="4" BorderThickness="5" BorderBrush="Black" Background="White" HorizontalAlignment="Left" Margin="41,524,0,0" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,83,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="33" Width="80" Background="Red" FontStyle="Oblique" Name="TimerDisplay" FontSize="20"  />
+
+    </Grid>
+</Window>
